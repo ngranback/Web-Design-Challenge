@@ -6,15 +6,17 @@
   <title>Bootstrap Demo</title>
   <!-- Bring in our bootstrap stylesheet -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
 </head>
 
 
 
 <body>
-  
+
   <div class="navigation">
     <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand" style="background-color: #98b8dd;" href="index.html">Weather Analysis</a>
+      <a class="navbar-brand" style="background-color: #c3d6eb;" href="index.html">Weather Analysis</a>
       <button class="navbar-toggler  border border-white" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -49,25 +51,57 @@
 
 
   <div class="container">
-    <div class="row">
-      <div class="col">
-        1 of 2
-      </div>
-      <div class="col">
-        2 of 2
+    <div class="row" style="padding-top: 50px;" >
+    
+      <div class="col-6">
+        <div class="row" style="padding-top: 10px">
+          <h2>Weather Analysis</h2></div>
+
+        <div class="row" style="padding-top: 10px">
+          For this challenge, weather data from around the world was collected from 
+          the online API and analyzed using Python and the Matplotlib library.</div>
+
+        <div class="row" style="padding-top: 10px">
+          The goal of data analysis was to identify any trends or 
+          correlations in various weather characteristics with respect to latitude.</div>
+
+        <div class="row" style="padding-top: 25px">
+          Follow the links in the navigation bar to find:</div>
+
+        <div class="row" style="padding-top:15px; padding-left: 50px">
+                  <ul style="list-style-type:square">
+                    <li>Data Visualizations</li>
+                    <li>Discussion of Findings</li>
+                    <li>Complete Dataset</li>
+                    </ul></p>
+                  </div>
+          
+        </div>  
+      
+
+      <div class="col-2"></div>
+
+      <div class="col-2" >
+        <div class="row">
+          <a href="vis1.html"><img src="Resources/latVcloud.png" class="img-fluid" alt="Latitude vs. Cloud Cover"></a></div>
+        <div class="row">
+          <a href="vis2.html"><img src="Resources/latVhum.png" class="img-fluid" alt="Latitude vs. Humidity"></a></div>
+        <div class="row">
+          <a href="vis3.html"><img src="Resources/latVwind.png" class="img-fluid" alt="Latitude vs. Wind Speed"></a></div>
+        <div class="row">
+          <a href="vis4.html"><img src="Resources/latVtemp.png" class="img-fluid" alt="Latitude vs. Temperature"></a></div>
+
+
       </div>
     </div>
-    <div class="row">
-      <div class="col">
-        1 of 3
-      </div>
-      <div class="col">
-        2 of 3
-      </div>
-      <div class="col">
-        3 of 3
-      </div>
+</div>
+
+
     </div>
+
+
+
+    
   </div>
 
   
