@@ -7,6 +7,25 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <title>Comparisons</title>
 
+
+  <style>
+   
+    /* All img tags */
+    img {
+      /* 
+        Center a block element in the middle of its enclosing tag.
+        When you use the "auto" rule on both left and right margins, 
+        your browser will do the math necessary to center a block element.
+        */
+      margin-left: auto;
+      margin-right: auto;
+      /* Block display (more on this later) */
+      display: block;
+    }
+
+  </style>
+
+
 </head>
 
 
@@ -26,13 +45,13 @@
               
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                  aria-haspopup="true" aria-expanded="false">Visualizations</a>
+                  aria-haspopup="true" aria-expanded="false">Visualizations and Discussion</a>
     
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="max_temperature.html">Max Temperature</a>
-                  <a class="dropdown-item" href="humidity.html">Humidity</a>
-                  <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
-                  <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+                <a class="dropdown-item" href="clouds.html">Cloudiness</a>
+                <a class="dropdown-item" href="humidity.html">Humidity</a>
+                <a class="dropdown-item" href="wind.html">Wind Speed</a>
+                <a class="dropdown-item" href="maxtemp.html">Max Temperature</a>
                 </div>
               </li>
               
@@ -50,38 +69,42 @@
 
 
 
+<div class="row center-block text-center " style="padding-top: 80px">
+    <h2>Visualization Comparisons</h2> 
+    <p>Use this page to compare data from each hemisphere side by side.</p></div>
 
-<h2>Visualization Comparisons</h2>
-
-<p>Use this page to compare data from each hemisphere side by side.</p>
 
 
 
 <div class="container" style="padding-top: 80px">
     <div class="row">
-        <div class="col-md-6 col-xs-12" style="padding-top: 20px">
-            <img src="Resources/latVcloud_N_linreg.png" class="img-fluid" alt="Latitude vs. Cloud Cover, Northern Hemisphere">
-        </div>
+        
         <div class="col-md-6 col-xs-12" style="padding-top: 20px">
             <img src="Resources/latVcloud_S_linreg.png" class="img-fluid" alt="Latitude vs. Cloud Cover, Southern Hemisphere">
           </div>
         <div class="col-md-6 col-xs-12" style="padding-top: 20px">
-            <img src="Resources/latVwind_N_linreg.png" class="img-fluid" alt="Latitude vs. Wind Speed, Northern Hemisphere">
+            <img src="Resources/latVcloud_N_linreg.png" class="img-fluid" alt="Latitude vs. Cloud Cover, Northern Hemisphere">
         </div>
+        
         <div class="col-md-6 col-xs-12" style="padding-top: 20px">
             <img src="Resources/latVwind_S_linreg.png" class="img-fluid" alt="Latitude vs. Wind Speed, Southern Hemisphere">
         </div>
         <div class="col-md-6 col-xs-12" style="padding-top: 20px">
-            <img src="Resources/latVhum_N_linreg.png" class="img-fluid" alt="Latitude vs. Humidity, Northern Hemisphere">
+            <img src="Resources/latVwind_N_linreg.png" class="img-fluid" alt="Latitude vs. Wind Speed, Northern Hemisphere">
         </div>
+                
         <div class="col-md-6 col-xs-12" style="padding-top: 20px">
             <img src="Resources/latVhum_S_linreg.png" class="img-fluid" alt="Latitude vs. Humidity, Southern Hemisphere">
           </div>
-        <div class="col-md-6 col-xs-12" style="padding-top: 20px">
-            <img src="Resources/latVtemp_N_linreg.png" class="img-fluid" alt="Latitude vs. Temperature, Northern Hemisphere">
+          <div class="col-md-6 col-xs-12" style="padding-top: 20px">
+            <img src="Resources/latVhum_N_linreg.png" class="img-fluid" alt="Latitude vs. Humidity, Northern Hemisphere">
         </div>
+        
         <div class="col-md-6 col-xs-12" style="padding-top: 20px">
             <img src="Resources/latVtemp_S_linreg.png" class="img-fluid" alt="Latitude vs. Temperature, Southern Hemisphere">
+        </div>
+        <div class="col-md-6 col-xs-12" style="padding-top: 20px">
+            <img src="Resources/latVtemp_N_linreg.png" class="img-fluid" alt="Latitude vs. Temperature, Northern Hemisphere">
         </div>
 
 

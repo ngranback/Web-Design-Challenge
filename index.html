@@ -7,13 +7,34 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <title>Weather Analysis Home Page</title>
 
+
+
+  <style>
+   
+    /* All img tags */
+    img {
+      /* 
+        Center a block element in the middle of its enclosing tag.
+        When you use the "auto" rule on both left and right margins, 
+        your browser will do the math necessary to center a block element.
+        */
+      margin-left: auto;
+      margin-right: auto;
+      /* Block display (more on this later) */
+      display: block;
+    }
+
+  </style>
+
+
+
 </head>
 
 
 
 <body>
 
-  <div class="navigation">
+  <div class="navigation"style="padding-bottom">
     <nav class="navbar navbar-expand-lg navbar-light">
       <a class="navbar-brand" style="background-color: #c3d6eb;" href="index.html">Weather Analysis</a>
       <button class="navbar-toggler  border border-white" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
@@ -25,13 +46,13 @@
           
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">Visualizations</a>
+              aria-haspopup="true" aria-expanded="false">Visualizations and Discussion</a>
 
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="clouds.html">Cloudiness</a>
-              <a class="dropdown-item" href="humidity.html">Humidity</a>
-              <a class="dropdown-item" href="wind.html">Wind Speed</a>
-              <a class="dropdown-item" href="maxtemp.html">Max Temperature</a>
+            <a class="dropdown-item" href="clouds.html">Cloudiness</a>
+            <a class="dropdown-item" href="humidity.html">Humidity</a>
+            <a class="dropdown-item" href="wind.html">Wind Speed</a>
+            <a class="dropdown-item" href="maxtemp.html">Max Temperature</a>
             </div>
           </li>
           
@@ -64,8 +85,9 @@
           The goal of data analysis was to identify any trends or 
           correlations in various weather characteristics with respect to latitude.</div>
 
+        
         <div class="row" style="padding-top: 25px">
-          Follow the links in the navigation bar to find:</div>
+          Click a chart on the right or follow the links in the navigation bar to find:</div>
 
         <div class="row" style="padding-top:15px; padding-left: 50px">
                   <ul style="list-style-type:square">

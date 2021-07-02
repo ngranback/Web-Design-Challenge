@@ -13,7 +13,6 @@
 
 <body>
 
-
     <!-- NAV BAR -->
     <div class="navigation">
         <nav class="navbar navbar-expand-lg navbar-light">
@@ -27,13 +26,13 @@
               
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                  aria-haspopup="true" aria-expanded="false">Visualizations</a>
+                  aria-haspopup="true" aria-expanded="false">Visualizations and Discussion</a>
     
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="max_temperature.html">Max Temperature</a>
+                  <a class="dropdown-item" href="clouds.html">Cloudiness</a>
                   <a class="dropdown-item" href="humidity.html">Humidity</a>
-                  <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
-                  <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+                  <a class="dropdown-item" href="wind.html">Wind Speed</a>
+                  <a class="dropdown-item" href="maxtemp.html">Max Temperature</a>
                 </div>
               </li>
               
@@ -50,7 +49,45 @@
       </div>
 
 
-Hello this page is for vis 3
+<div class="container" style="padding-bottom: 150px">
+
+<div class="row center-block text-center " style="padding-top: 50px">
+  <h1>Q: Does Latitude affect Wind Speed?</h1> </div>
+
+<div class="row">
+  <div class="col-3"></div>
+
+  <div class="col-6">
+
+    <div class="row justify-content-md-center" style="padding-top: 20px">
+        <img src="Resources/latVwind.png" alt="Latitude vs. Wind"></div>
+
+
+    <div class="row" style="padding-top: 30px">
+        A: The evidence is not compelling. </div>
+    <div class="row"style="padding-top: 30px">
+      There is no strong correlation between wind speed and latitude.
+      At first glance, the data from the southern hemisphere appears to suggest a correlation.
+      There is a noticeable slope to the line of regression with wind speed decreasing near the equator.
+      However, the northern hemisphere shows none of the same behavior. 
+      As discussed in the humidity results, a latitude dependence should be mirrored around the equator.
+    </div>
+
+
+    <div class="row" style="padding-top: 50px">
+
+      
+      <div class="col-6">
+        <img src="Resources/latVwind_S_linreg.png" class="img-fluid" alt="Latitude vs. Wind, Southern Hemisphere"></div>
+      <div class="col-6">
+          <img src="Resources/latVwind_N_linreg.png" class="img-fluid" alt="Latitude vs. Wind, Northern Hemisphere"></div>
+    </div>
+
+  </div>
+
+<div class="col-3"></div>
+</div>
+</div>
 
 
 

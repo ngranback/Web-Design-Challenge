@@ -13,7 +13,6 @@
 
 <body>
 
-
     <!-- NAV BAR -->
     <div class="navigation">
         <nav class="navbar navbar-expand-lg navbar-light">
@@ -27,13 +26,13 @@
               
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                  aria-haspopup="true" aria-expanded="false">Visualizations</a>
+                  aria-haspopup="true" aria-expanded="false">Visualizations and Discussion</a>
     
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="max_temperature.html">Max Temperature</a>
+                  <a class="dropdown-item" href="clouds.html">Cloudiness</a>
                   <a class="dropdown-item" href="humidity.html">Humidity</a>
-                  <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
-                  <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+                  <a class="dropdown-item" href="wind.html">Wind Speed</a>
+                  <a class="dropdown-item" href="maxtemp.html">Max Temperature</a>
                 </div>
               </li>
               
@@ -50,7 +49,45 @@
       </div>
 
 
-Hello this page is for vis 2
+<div class="container" style="padding-bottom: 150px">
+
+<div class="row center-block text-center " style="padding-top: 50px">
+  <h1>Q: Does Latitude affect Humidity?</h1> </div>
+
+<div class="row">
+  <div class="col-3"></div>
+
+  <div class="col-6">
+
+    <div class="row justify-content-md-center" style="padding-top: 20px">
+        <img src="Resources/latVhum.png" alt="Latitude vs. Humidity"></div>
+
+
+    <div class="row" style="padding-top: 30px">
+        A: Sadly no. </div>
+    <div class="row"style="padding-top: 30px">
+      There is no strong correlation between humidity and latitude. 
+      The lines of regression on either hemisphere are nearly horizontal, meaning there is no change as latitude changes. 
+      In fact, one line slops upward toward zero latitude while the other slopes updward away from zero latitude. 
+      If humidity were related to latitude, the same behavior should be mirrored on either side of the equator.
+      </div>
+
+
+    <div class="row" style="padding-top: 50px">
+
+      
+      <div class="col-6">
+        <img src="Resources/latVhum_S_linreg.png" class="img-fluid" alt="Latitude vs. Humidity, Southern Hemisphere"></div>
+      <div class="col-6">
+          <img src="Resources/latVhum_N_linreg.png" class="img-fluid" alt="Latitude vs. Humidity, Northern Hemisphere"></div>
+    </div>
+
+  </div>
+
+<div class="col-3"></div>
+</div>
+</div>
+
 
 
 

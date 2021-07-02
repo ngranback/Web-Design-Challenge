@@ -26,13 +26,13 @@
               
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                  aria-haspopup="true" aria-expanded="false">Visualizations</a>
+                  aria-haspopup="true" aria-expanded="false">Visualizations and Discussion</a>
     
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="max_temperature.html">Max Temperature</a>
+                  <a class="dropdown-item" href="clouds.html">Cloudiness</a>
                   <a class="dropdown-item" href="humidity.html">Humidity</a>
-                  <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
-                  <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+                  <a class="dropdown-item" href="wind.html">Wind Speed</a>
+                  <a class="dropdown-item" href="maxtemp.html">Max Temperature</a>
                 </div>
               </li>
               
@@ -64,19 +64,22 @@
 
 
     <div class="row" style="padding-top: 30px">
-        A: Sadly the data does not show a compelling answer. </div>
+        A: The data is not compelling. </div>
     <div class="row"style="padding-top: 30px">
-      There is no clear correlation between cloud cover and latitude. 
-      The line of regression is almost horizontal, meaning very little trend in any direction.
+      There does not appear to be much of a correlation between cloud cover and latitude. 
+      The line of regression in each hemisphere does slope upward toward zero latitude, 
+      which suggests that cloud cover tends to increase near the equator.
+      However the lines are almost horizontal, denoting a very subtle trend.
       On top of that, the r2 value is very weak meaning any noticeable slope can be ignored as coincidence. </div>
 
 
     <div class="row" style="padding-top: 50px">
 
       <div class="col-6">
-        <img src="Resources/latVcloud_N_linreg.png" class="img-fluid" alt="Latitude vs. Cloud Cover, Northern Hemisphere"></div>
-      <div class="col-6">
         <img src="Resources/latVcloud_S_linreg.png" class="img-fluid" alt="Latitude vs. Cloud Cover, Southern Hemisphere"></div>
+      <div class="col-6">
+        <img src="Resources/latVcloud_N_linreg.png" class="img-fluid" alt="Latitude vs. Cloud Cover, Northern Hemisphere"></div>
+      
 
     </div>
 
