@@ -8,6 +8,7 @@ https://ngranback.github.io/Web-Design-Challenge/
 
 Utilized a nav bar for easy navigation around the website with the help of Bootstrap code. 
 
+----------
 
 Visualizations were created using Matplotlib in a separate project.
 
